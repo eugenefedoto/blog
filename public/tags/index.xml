@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on ef&#39;s stuff</title>
+    <link>http://dailyprog.org/~ef/tags/</link>
+    <description>Recent content in Tags on ef&#39;s stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef&lt;/a&gt; 2018</copyright>
+    
+	<atom:link href="http://dailyprog.org/~ef/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+baseurl = "http://dailyprog.org/~ef"
+languageCode = "en"
+title = "ef's stuff"
+theme = "kiss"
+copyright = "&copy; <a href=\"http://dailyprog.org/~ef\">ef</a> 2018"
+disqusShortname = ""
+googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
+
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = false # Adds powered by hugo and kiss below Copyright
+related = false # Includes related articles at the bottom of the article
+
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = ""
+github = "eugenefedoto"
+email = "eugenefedoto@gmail.com"
+linkedin = ""
+facebook = ""
+instagram = ""
+codepen = ""
+
+[taxonomies]
+tag =""
+
+[blackfriday]
+hrefTargetBlank = true
+
+[params.sections_left]
+"/~ef/about" = "About"

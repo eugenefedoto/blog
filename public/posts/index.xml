@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ef&#39;s stuff</title>
+    <link>http://dailyprog.org/~ef/posts/</link>
+    <description>Recent content in Posts on ef&#39;s stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Fri, 03 Aug 2018 11:32:38 -0500</lastBuildDate>
+    
+	<atom:link href="http://dailyprog.org/~ef/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Scan Types</title>
+      <link>http://dailyprog.org/~ef/posts/1/</link>
+      <pubDate>Fri, 03 Aug 2018 11:32:38 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/posts/1/</guid>
+      <description>A Little Background I&amp;rsquo;ve always been interested in knowing how to hack. It&amp;rsquo;s what got me interested in programming, and it started out with wanting to gain advantages in games. Though now I&amp;rsquo;ve become interested in further improving my knowledge and skills in computer science. With this series of hacking articles, I plan to write about my journey. I want to challenge myself in different areas (writing, programming, thinking, explaining), make this a hobby, and improve my writing skills.</description>
+    </item>
+    
+  </channel>
+</rss>

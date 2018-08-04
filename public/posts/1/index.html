@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Introduction to Scan Types | ef&#39;s stuff</title>
+
+
+<link rel="stylesheet" href="/~ef/css/style.css"/><link rel='stylesheet' href='http://dailyprog.org/~ef/css/custom.css'><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="http://dailyprog.org/~ef"><h1 class="title is-4">ef&#39;s stuff</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile"><a class="level-item" aria-label="email" href='mailto:eugenefedoto@gmail.com' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="github" href='https://github.com/eugenefedoto' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+        <div class="nav-left"><a class="nav-item" href="/~ef/about">
+                <h2 class="title is-5">About</h2>
+              </a></div>
+      
+
+      
+    </nav>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+    </div>
+    <h2 class="subtitle is-6">August 3, 2018</h2>
+    <h1 class="title">Introduction to Scan Types - 5 min read</h1>
+    
+    <div class="content">
+      
+
+<h1 id="a-little-background">A Little Background</h1>
+
+<p>I&rsquo;ve always been interested in knowing how to hack. It&rsquo;s what got me interested in programming, and it started out with wanting to gain advantages in games. Though now I&rsquo;ve become interested in further improving my knowledge and skills in computer science. With this series of hacking articles, I plan to write about my journey. I want to challenge myself in different areas (writing, programming, thinking, explaining), make this a hobby, and improve my writing skills.</p>
+
+<p>These articles by me will focus on going into greater detail over concepts I&rsquo;ve encountered in not so great detail and things I&rsquo;ve had trouble piecing together due to lack of information from Google. For example, I take  Megaman 2 from Stephen Chapman&rsquo;s YouTube channel, then spend the majority of my time going over the concept of <em>memory mapping</em> instead of focusing on the simpler part of hacking the health value. Whereas Stephen did the reverse.</p>
+
+<h1 id="cheat-engine">Cheat Engine</h1>
+
+<p>Formal definition: Cheat Engine is a disassembler/debugger/memory editing GUI that works with little-endian* x86/x64 architectures.</p>
+
+<p>*Partial big-endian support can be enabled with some hacks. An example of big-endian architecture is the Gamecube/Dolphin, which would cause CE&rsquo;s disassembler functions to be useless and values to be read in reverse.</p>
+
+<p>Cheat Engine is a very popular intro into game hacking for many newbies. When the naive future-programmer becomes interested in games, he eventually stumbles upon cheats. It happened to me. One day, my friend introduced me to the Game Genie for the Sega Genesis. The world of assembly opened up to me. I knew nothing about it, besides seeing my friend input some magical codes. Later, when I found myself PC gaming, I learned about trainers and eventually stumbled upon that same magical world of assembly again. I played with it, but never seriously. It was a very confusing world with many tough concepts: pointers, hexadecimal, assembly code, machine code, injection, programming, etc. After graduating from computer science, I wanted to take a serious stab again at Cheat Engine. It&rsquo;s a simple looking program that is a great exercise in understanding the world of computers and strengthing my foundations.</p>
+
+<h1 id="setup">Setup</h1>
+
+<ul>
+<li>Windows 10 x64</li>
+<li>FCEUX 2.2.3</li>
+<li>Megaman 2 (USA) for NES</li>
+<li>Cheat Engine 6.8.1</li>
+</ul>
+
+<h1 id="before-you-begin-settings">Before You Begin: Settings</h1>
+
+<p><span style="color:red; font-size:20px">Important!</span> <img src="/~ef/assets/images/1/maki-chibi.png" alt="important" /></p>
+
+<pre><code>Scan Settings -&gt; check &quot;MEM_MAPPED&quot;
+Debugger Options -&gt; check &quot;Use VEH Debugger&quot;
+</code></pre>
+
+<h2 id="explanation">Explanation</h2>
+
+<p>Before I started finding the addresses, there were two settings I had to set in Cheat Engine.</p>
+
+<ol>
+<li><p>Scan Settings -&gt; check &ldquo;MEM_MAPPED&rdquo;</p>
+
+<ul>
+<li>Memory Mapping &ndash; a process in which regions of memory on one device are assigned address ranges from a shared device (peripheral) or file. A piece of hardware called a <em>mapper</em> on the game cartridge (or ROM) is used to map addresses from the cartridge to the reserved space on the console (or emulator). See this <a href="http://www.gc-forever.com/yagcd/chap4.html#sec4" target="_blank">Gamecube memory map</a>.</li>
+</ul>
+
+<figure>
+    <img src="/~ef/assets/images/1/memmap1.gif"/>
+    <figcaption>*The file's (our Megaman 2 ROM) ranges are mapped into process 1 (the NES emulator). Also shown is shared memory between two processes, which is not used in our case.*</figcaption>
+</figure>
+
+<ul>
+<li>CE doesn&rsquo;t detect mapped memory regions by default.</li>
+<li>This is a setting you should always have enabled when working with emulators. It depends on how the emulator works and sometimes will work fine without it, but it&rsquo;s best to leave it on when dealing with any kind of emulator. In the below image, CE can&rsquo;t find the addresses we&rsquo;re looking for when the MEM_MAPPED setting is turned off and we try to find an address from that region. <a href="/~ef/assets/images/1/mmap-on-off-dolphin.png"><img src="/~ef/assets/images/1/mmap-on-off-dolphin.png" alt="comparing mmap turned on and off" /></a></li>
+<li>It&rsquo;s useless to enable for PC games (aka stored directly on PC memory) and will slow down scanning.</li>
+</ul></li>
+
+<li><p>Debugger Options -&gt; &ldquo;Use VEH Debugger&rdquo;</p></li>
+</ol>
+
+<h1 id="hacking-megaman-2-nes">Hacking Megaman 2 (NES)</h1>
+
+<p>Megaman 2 is a simple game that is a good introduction to finding and changing values of simple properties such as health and energy.</p>
+
+<ol>
+<li><p>Make sure you turned on the correct settings I explained above in <a href="#before-you-begin-settings">Before You Begin</a>.</p></li>
+
+<li><p>Run the NES emulator (FCEUX) and load the ROM (Megaman 2).</p></li>
+
+<li><p>Attach the CE debugger to the emulator. <em>File -&gt; Open Process (or use computer icon from the toolbar)</em></p></li>
+
+<li><p>Load any stage from the game. I chose Woodman.</p></li>
+
+<li><p>Hack your health. Read below.</p></li>
+</ol>
+
+<h1 id="hack-your-health">Hack Your Health</h1>
+
+<p>Notice you start out with many bars for your health. Try to count them. Is it 30? No! The answer is 28, such a random number.</p>
+
+<p><span style="color:#57D900; font-size:20px">Tip!</span><img src="/~ef/assets/images/1/kotori-chibi.png" alt="tip" /></p>
+
+<pre><code>Many times you won't need to know the value of something in order to find its address. 
+This is a great scenario that illustrates the importance of never 
+relying on values in front of your eyes.
+</code></pre>
+
+<p>Instead of counting, let&rsquo;s find it in a logical manner.</p>
+
+<ol>
+<li><p>Scan Type: Unknown Initial Value (great option to start within any game). Value Type and other settings are not important for this tutorial (will be later explained).</p></li>
+
+<li><p>First Scan -&gt; I get 4.8 million addresses. You might have a completely different number by a few factors. This is fine.</p></li>
+
+<li><p>Go get hit by an enemy. Your hp reduces. Make sure to pause the game (press ENTER) while using CE so random enemies don&rsquo;t keep hitting you.</p></li>
+
+<li><p><em>Scan Type: Decreased value</em> -&gt; get hit again -&gt; search ST: DV -&gt; hit -&gt; search ST: DV -&gt; repeat &hellip; You can also do <em>Scan Type: Increased Value</em> if you find a health pack. Also notice the red font, which indicates changing values from the last time CE polled the emulator. Tip: move around without changing the health and you can eliminate allow of those useless values using <em>Scan Type: Unchanged value</em></p></li>
+
+<li><p>Eventually, you will end up with 1 address. Double-click it to add to your saved list at the bottom. Now feel free to change the value to whatever you like. Click the X under Active Column to enable God mode (aka <em>freezing</em> the value).</p></li>
+
+<li><p>Try gaining the maximum allowed health, or play around with CE and see which values gets you a full hp bar. It&rsquo;s 28!</p></li>
+</ol>
+
+<h1 id="references">References</h1>
+
+<ol>
+<li><p><a href="https://www.mathworks.com/help/matlab/import_export/overview-of-memory-mapping.html" target="_blank">https://www.mathworks.com/help/matlab/import_export/overview-of-memory-mapping.html</a></p></li>
+
+<li><p><a href="https://smashboards.com/threads/using-cheat-engine-with-dolphin.442909/" target="_blank">https://smashboards.com/threads/using-cheat-engine-with-dolphin.442909/</a></p></li>
+
+<li><p><a href="https://medium.com/@fogleman/i-made-an-nes-emulator-here-s-what-i-learned-about-the-original-nintendo-2e078c9b28fe" target="_blank">https://medium.com/@fogleman/i-made-an-nes-emulator-here-s-what-i-learned-about-the-original-nintendo-2e078c9b28fe</a></p></li>
+
+<li><p><a href="https://www.youtube.com/watch?v=hgrIKUR5Hww" target="_blank">YouTube Cheat Engine Tutorial, Part 1 by Stephen Chapman</a></p></li>
+</ol>
+
+      
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="http://dailyprog.org/~ef">ef</a> 2018</p>
+    
+  </div>
+</section>
+
+</body>
+</html>
+

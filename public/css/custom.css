@@ -1,0 +1,17 @@
+body{
+    background-image: url(/~ef/assets/images/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.section, .nav{
+    background: none;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #1660a5;
+    font-weight: 500;
+}
