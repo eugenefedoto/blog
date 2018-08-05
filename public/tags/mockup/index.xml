@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mockup on Hi, I&#39;m ef_</title>
+    <link>http://dailyprog.org/~ef/tags/mockup/</link>
+    <description>Recent content in Mockup on Hi, I&#39;m ef_</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef_&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Sat, 04 Aug 2018 14:59:49 -0500</lastBuildDate>
+    
+	<atom:link href="http://dailyprog.org/~ef/tags/mockup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1 - Developing Chat UI</title>
+      <link>http://dailyprog.org/~ef/posts/developing-chat-ui/</link>
+      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/posts/developing-chat-ui/</guid>
+      <description>I recently tasked myself a project to develop the UI for a chat client that will later become a part of the Dailyprog/Hackerchan. As of now, a lot of the technical details are open in the air. I&amp;rsquo;m not even sure if it will use IRC in the end. The IRC part came from needing to replace the current Kiwi IRC client.
+I&amp;rsquo;m not really a front end guy, but sometimes I can enjoy it.</description>
+    </item>
+    
+  </channel>
+</rss>

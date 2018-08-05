@@ -1,8 +1,8 @@
 baseurl = "http://dailyprog.org/~ef"
 languageCode = "en"
-title = "ef's stuff"
+title = "Hi, I'm ef_"
 theme = "kiss"
-copyright = "&copy; <a href=\"http://dailyprog.org/~ef\">ef</a> 2018"
+copyright = "&copy; <a href=\"http://dailyprog.org/~ef\">ef_</a> 2018"
 disqusShortname = ""
 googleAnalytics = ""
 # Number of posts per page
@@ -40,10 +40,11 @@ instagram = ""
 codepen = ""
 
 [taxonomies]
-tag =""
+tag = "tags"
 
 [blackfriday]
 hrefTargetBlank = true
 
 [params.sections_left]
 "/~ef/about" = "About"
+"/~ef/projects" = "Projects"

@@ -1,15 +1,97 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ef&#39;s stuff</title>
+    <title>Tags on Hi, I&#39;m ef_</title>
     <link>http://dailyprog.org/~ef/tags/</link>
-    <description>Recent content in Tags on ef&#39;s stuff</description>
+    <description>Recent content in Tags on Hi, I&#39;m ef_</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef&lt;/a&gt; 2018</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef_&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Sat, 04 Aug 2018 14:59:49 -0500</lastBuildDate>
     
 	<atom:link href="http://dailyprog.org/~ef/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chat</title>
+      <link>http://dailyprog.org/~ef/tags/chat/</link>
+      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/chat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cheat Engine</title>
+      <link>http://dailyprog.org/~ef/tags/cheat-engine/</link>
+      <pubDate>Sat, 04 Aug 2018 00:46:25 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/cheat-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hackerchan</title>
+      <link>http://dailyprog.org/~ef/tags/hackerchan/</link>
+      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/hackerchan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Megaman 2</title>
+      <link>http://dailyprog.org/~ef/tags/megaman-2/</link>
+      <pubDate>Fri, 03 Aug 2018 11:32:38 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/megaman-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ninja Gaiden 2</title>
+      <link>http://dailyprog.org/~ef/tags/ninja-gaiden-2/</link>
+      <pubDate>Sat, 04 Aug 2018 00:46:25 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/ninja-gaiden-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scan Types</title>
+      <link>http://dailyprog.org/~ef/tags/scan-types/</link>
+      <pubDate>Fri, 03 Aug 2018 11:32:38 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/scan-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ui</title>
+      <link>http://dailyprog.org/~ef/tags/ui/</link>
+      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Value Types</title>
+      <link>http://dailyprog.org/~ef/tags/value-types/</link>
+      <pubDate>Sat, 04 Aug 2018 00:46:25 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/value-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wireframe</title>
+      <link>http://dailyprog.org/~ef/tags/wireframe/</link>
+      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/wireframe/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>2 - Importance of Value Types | Hi, I&#39;m ef_</title>
+
+
+<link rel="stylesheet" href="/~ef/css/style.css"/><link rel='stylesheet' href='http://dailyprog.org/~ef/css/custom.css'><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="http://dailyprog.org/~ef"><h1 class="title is-4">Hi, I&#39;m ef_</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile"><a class="level-item" aria-label="email" href='mailto:eugenefedoto@gmail.com' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="github" href='https://github.com/eugenefedoto' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+        <div class="nav-left"><a class="nav-item" href="/~ef/about">
+                <h2 class="title is-5">About</h2>
+              </a><a class="nav-item" href="/~ef/projects">
+                <h2 class="title is-5">Projects</h2>
+              </a></div>
+      
+
+      
+    </nav>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/~ef/tags/cheat-engine">#Cheat Engine</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/~ef/tags/value-types">#value types</a>
+  
+  | <a class="subtitle is-6" href="/~ef/tags/ninja-gaiden-2">#Ninja Gaiden 2</a>
+  
+
+      
+    </div>
+    <h2 class="subtitle is-6">August 4, 2018</h2>
+    <h1 class="title">2 - Importance of Value Types - 3 min read</h1>
+    
+    <div class="content">
+      
+
+<h1 id="setup">Setup</h1>
+
+<ul>
+<li>Windows 10 x64</li>
+<li>FCEUX 2.2.3</li>
+<li>Ninja Gaiden 2 for NES</li>
+<li>Cheat Engine 6.8.1</li>
+</ul>
+
+<h1 id="prerequisite">Prerequisite</h1>
+
+<ul>
+<li>Knowledge of scanning simple values. See: <a href="/~ef/intro-scan-types">Intro Scan Types</a></li>
+</ul>
+
+<h1 id="the-value-type">The Value Type</h1>
+
+<p>Before, I only paid attention to the <em>Scan Type</em>, where I said it&rsquo;s always best to leave it at <em>Unknown initial value.</em> No need to know anything about assembly or how bytes are stored. The next step is <em>Value Type</em>, which is important and needs some explanation. Memory is similar to hard disks; we use both to store possibly anything, only limited by the capacity of the RAM or HDD, and by how much we care about speed. Right now, we don&rsquo;t care about speed. We care about 32 bit vs 64 bit. Your computer supports one or both (most likely both), which means it can store 2^64 bits = 2^64 different addresses = 2^64 values. The maximum length of a value is 64 bits so your RAM will be storing either a byte, 2 bytes, 4 bytes (32 bits), or 8 bytes (64 bits) in a single location, and these are the scan options CE provides us with.</p>
+
+<p>Your goal is to find the scan type that is a perfect match.</p>
+
+<h1 id="explanation">Explanation</h1>
+
+<p>The game developer decides to store all character data as 2-byte values inside the game because the game is a complex space shooter and a byte would only allow us to use values 0-255. We try and search for the shield number, expressed as the value 1,500. 1,500 won&rsquo;t fit inside the byte (1,500 &gt; 255). We can use a 2-byte. 2^16 - 1 == 65,535. If there&rsquo;s a chance for the shields to go above 65,535, we&rsquo;d have to switch to 4-bytes.</p>
+
+<p>What if we initially choose 4-bytes for a value that&rsquo;s actually a byte? That&rsquo;s the problem we encounter with Ninja Gaiden 2. You wrongly tell CE to search for 4-bytes. What happens if CE naively finds the health byte you&rsquo;re looking for and ends up reading an extra byte or two because you gave it the wrong setting?</p>
+
+<p><img src="/~ef/assets/images/importance-value-types/health-4bytes.JPG" alt="wrong scan type" title="got a trash value due to not searching for Byte" /></p>
+
+<p>Usually, there will be trash data in that extra byte which will give you the wrong results. Take 0xAC31 for example. 31 could be the health we&rsquo;re searching and AC would be the trash byte. If by chance the extra byte is empty, like the AC in 0xAC31, you could still get the correct result you were looking for.</p>
+
+<p><span style="color:#57D900; font-size:20px">Tip!</span><img src="/~ef/assets/images/kotori-chibi.png" alt="tip" /></p>
+
+<pre><code>It can be troublesome to figure out the correct *scan type*. You can waste your energy
+individually trying the byte, 2-bytes, and 4-bytes. There's a much better way.
+Use the All type. See &quot;Important!&quot;
+</code></pre>
+
+<p><span style="color:red; font-size:20px">Important!</span> <img src="/~ef/assets/images/maki-chibi.png" alt="important" /></p>
+
+<pre><code>Settings -&gt; Scan Settings -&gt; All type includes (check all)
+</code></pre>
+
+<h1 id="hacking-ninja-gaiden-2-nes">Hacking Ninja Gaiden 2 (NES)</h1>
+
+<p>Same as Megaman 2.</p>
+
+<ol>
+<li><p>Turn on everything like you did before. Correct settings and all as explained previously.</p></li>
+
+<li><p>Make sure <em>All</em> is enabled, as explained by Kotori&rsquo;s tip above.</p></li>
+
+<li><p><em>Scan Type: Unknown initial value; Value Type: All</em></p></li>
+
+<li><p>Easily find the health value. This time the max health is 16.</p></li>
+</ol>
+
+<h1 id="reference">Reference</h1>
+
+<ol>
+<li><a href="https://www.youtube.com/watch?v=v-5wehWM3tE" target="_blank">YouTube Cheat Engine Tutorial, Part 2 by Stephen Chapman</a></li>
+</ol>
+
+      
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="http://dailyprog.org/~ef">ef_</a> 2018</p>
+    
+  </div>
+</section>
+
+</body>
+</html>
+

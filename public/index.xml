@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ef&#39;s stuff</title>
+    <title>Hi, I&#39;m ef_</title>
     <link>http://dailyprog.org/~ef/</link>
-    <description>Recent content on ef&#39;s stuff</description>
+    <description>Recent content on Hi, I&#39;m ef_</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef&lt;/a&gt; 2018</copyright>
-    <lastBuildDate>Fri, 03 Aug 2018 20:40:09 -0500</lastBuildDate>
+    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef_&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Sat, 04 Aug 2018 14:59:49 -0500</lastBuildDate>
     
 	<atom:link href="http://dailyprog.org/~ef/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1 - Developing Chat UI</title>
+      <link>http://dailyprog.org/~ef/posts/developing-chat-ui/</link>
+      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/posts/developing-chat-ui/</guid>
+      <description>I recently tasked myself a project to develop the UI for a chat client that will later become a part of the Dailyprog/Hackerchan. As of now, a lot of the technical details are open in the air. I&amp;rsquo;m not even sure if it will use IRC in the end. The IRC part came from needing to replace the current Kiwi IRC client.
+I&amp;rsquo;m not really a front end guy, but sometimes I can enjoy it.</description>
+    </item>
+    
+    <item>
+      <title>2 - Importance of Value Types</title>
+      <link>http://dailyprog.org/~ef/posts/importance-value-types/</link>
+      <pubDate>Sat, 04 Aug 2018 00:46:25 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/posts/importance-value-types/</guid>
+      <description>Setup  Windows 10 x64 FCEUX 2.2.3 Ninja Gaiden 2 for NES Cheat Engine 6.8.1  Prerequisite  Knowledge of scanning simple values. See: Intro Scan Types  The Value Type Before, I only paid attention to the Scan Type, where I said it&amp;rsquo;s always best to leave it at Unknown initial value. No need to know anything about assembly or how bytes are stored. The next step is Value Type, which is important and needs some explanation.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://dailyprog.org/~ef/projects/</link>
+      <pubDate>Sat, 04 Aug 2018 00:06:00 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/projects/</guid>
+      <description>Rasa.NET &amp;ndash; WIP &amp;ndash; server emulator for the discontinued MMORPG Tabula Rasa, written in C#.
+ IRC Web Client UI &amp;ndash; WIP &amp;ndash; UI for the future IRC web client to be used by Hackerchan, written in Vue.
+ Blog &amp;ndash; WIP &amp;ndash; using Hugo to create my articles on dailyprog.org/~ef.
+ Developing my skills in reverse engineering &amp;ndash; WIP
+ Bike Network Location Finder &amp;ndash; complete &amp;ndash; a lengthy project I lead across two teams and various technologies, ultimately written in Golang and Vue.</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -18,15 +50,16 @@
       <pubDate>Fri, 03 Aug 2018 20:40:09 -0500</pubDate>
       
       <guid>http://dailyprog.org/~ef/about/</guid>
-      <description>stuff about me</description>
+      <description>I&amp;rsquo;m a guy who has spent his entire life in the computer world. From computer camps, programming in VBA and playing Starcraft LAN, to doing fun stuff like reformatting my PC to try out a new Linux flavor during a high school weekend. After graduating from university, I&amp;rsquo;ve been floating across different interests in tech. I&amp;rsquo;ve enjoyed compilers, front-end, networking, cryptography, back-end, and reverse engineering.
+My goals include finding fulfilling work with like-minded people and going beyond my limits.</description>
     </item>
     
     <item>
-      <title>Introduction to Scan Types</title>
-      <link>http://dailyprog.org/~ef/posts/1/</link>
+      <title>1 - Introduction to Scan Types</title>
+      <link>http://dailyprog.org/~ef/posts/intro-scan-types/</link>
       <pubDate>Fri, 03 Aug 2018 11:32:38 -0500</pubDate>
       
-      <guid>http://dailyprog.org/~ef/posts/1/</guid>
+      <guid>http://dailyprog.org/~ef/posts/intro-scan-types/</guid>
       <description>A Little Background I&amp;rsquo;ve always been interested in knowing how to hack. It&amp;rsquo;s what got me interested in programming, and it started out with wanting to gain advantages in games. Though now I&amp;rsquo;ve become interested in further improving my knowledge and skills in computer science. With this series of hacking articles, I plan to write about my journey. I want to challenge myself in different areas (writing, programming, thinking, explaining), make this a hobby, and improve my writing skills.</description>
     </item>
     

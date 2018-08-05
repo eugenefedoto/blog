@@ -3,29 +3,99 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://dailyprog.org/~ef/posts/developing-chat-ui/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/posts/importance-value-types/</loc>
+    <lastmod>2018-08-04T00:46:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/projects/</loc>
+    <lastmod>2018-08-04T00:06:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dailyprog.org/~ef/about/</loc>
     <lastmod>2018-08-03T20:40:09-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dailyprog.org/~ef/posts/1/</loc>
+    <loc>http://dailyprog.org/~ef/posts/intro-scan-types/</loc>
     <lastmod>2018-08-03T11:32:38-05:00</lastmod>
   </url>
   
   <url>
+    <loc>http://dailyprog.org/~ef/tags/chat/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/cheat-engine/</loc>
+    <lastmod>2018-08-04T00:46:25-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/hackerchan/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://dailyprog.org/~ef/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/megaman-2/</loc>
+    <lastmod>2018-08-03T11:32:38-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/ninja-gaiden-2/</loc>
+    <lastmod>2018-08-04T00:46:25-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dailyprog.org/~ef/posts/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/scan-types/</loc>
     <lastmod>2018-08-03T11:32:38-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dailyprog.org/~ef/</loc>
-    <lastmod>2018-08-03T20:40:09-05:00</lastmod>
+    <loc>http://dailyprog.org/~ef/tags/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/ui/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/value-types/</loc>
+    <lastmod>2018-08-04T00:46:25-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/wireframe/</loc>
+    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
     <priority>0</priority>
   </url>
   
