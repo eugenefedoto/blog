@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://dailyprog.org/~ef/posts/finding-problematic-values-part-3/</loc>
+    <lastmod>2018-08-12T10:42:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/posts/2-features-of-a-chat-ui/</loc>
+    <lastmod>2018-08-05T03:21:35-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dailyprog.org/~ef/posts/developing-chat-ui/</loc>
     <lastmod>2018-08-04T14:59:49-05:00</lastmod>
   </url>
@@ -29,31 +39,49 @@
   
   <url>
     <loc>http://dailyprog.org/~ef/tags/chat/</loc>
-    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <lastmod>2018-08-05T03:21:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dailyprog.org/~ef/tags/cheat-engine/</loc>
-    <lastmod>2018-08-04T00:46:25-05:00</lastmod>
+    <lastmod>2018-08-12T10:42:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dailyprog.org/~ef/tags/hackerchan/</loc>
-    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <loc>http://dailyprog.org/~ef/tags/dailyprog/</loc>
+    <lastmod>2018-08-05T03:21:35-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/features/</loc>
+    <lastmod>2018-08-05T03:21:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dailyprog.org/~ef/</loc>
-    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <lastmod>2018-08-12T10:42:56-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/m.c.-kids/</loc>
+    <lastmod>2018-08-12T10:42:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dailyprog.org/~ef/tags/megaman-2/</loc>
     <lastmod>2018-08-03T11:32:38-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/nes/</loc>
+    <lastmod>2018-08-12T10:42:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,7 +93,7 @@
   
   <url>
     <loc>http://dailyprog.org/~ef/posts/</loc>
-    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <lastmod>2018-08-12T10:42:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,19 +105,25 @@
   
   <url>
     <loc>http://dailyprog.org/~ef/tags/</loc>
-    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <lastmod>2018-08-05T03:21:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dailyprog.org/~ef/tags/ui/</loc>
-    <lastmod>2018-08-04T14:59:49-05:00</lastmod>
+    <lastmod>2018-08-05T03:21:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dailyprog.org/~ef/tags/value-types/</loc>
     <lastmod>2018-08-04T00:46:25-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dailyprog.org/~ef/tags/values/</loc>
+    <lastmod>2018-08-12T10:42:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   

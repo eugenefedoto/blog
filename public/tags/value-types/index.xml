@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>2 - Importance of Value Types</title>
+      <title>Importance of Value Types (Part 2)</title>
       <link>http://dailyprog.org/~ef/posts/importance-value-types/</link>
       <pubDate>Sat, 04 Aug 2018 00:46:25 -0500</pubDate>
       
       <guid>http://dailyprog.org/~ef/posts/importance-value-types/</guid>
-      <description>Setup  Windows 10 x64 FCEUX 2.2.3 Ninja Gaiden 2 for NES Cheat Engine 6.8.1  Prerequisite  Knowledge of scanning simple values. See: Intro Scan Types  The Value Type Before, I only paid attention to the Scan Type, where I said it&amp;rsquo;s always best to leave it at Unknown initial value. No need to know anything about assembly or how bytes are stored. The next step is Value Type, which is important and needs some explanation.</description>
+      <description>Setup  Windows 10 x64 FCEUX 2.2.3 Ninja Gaiden 2 for NES Cheat Engine 6.8.1 x64  Prerequisite  Knowledge of scanning simple values. See: Intro Scan Types  The Value Type Before, I only paid attention to the Scan Type, where I said it&amp;rsquo;s always best to leave it at Unknown initial value. No need to know anything about assembly or how bytes are stored. The next step is Value Type, which is important and needs some explanation.</description>
     </item>
     
   </channel>

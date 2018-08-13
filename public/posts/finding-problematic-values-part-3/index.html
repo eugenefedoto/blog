@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Finding Problematic Values (Part 3) | Hi, I&#39;m ef_</title>
+
+
+<link rel="stylesheet" href="/~ef/css/style.css"/><link rel='stylesheet' href='http://dailyprog.org/~ef/css/custom.css'><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="http://dailyprog.org/~ef"><h1 class="title is-4">Hi, I&#39;m ef_</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile"><a class="level-item" aria-label="email" href='mailto:eugenefedoto@gmail.com' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="github" href='https://github.com/eugenefedoto' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+        <div class="nav-left"><a class="nav-item" href="/~ef/about">
+                <h2 class="title is-5">About</h2>
+              </a><a class="nav-item" href="/~ef/projects">
+                <h2 class="title is-5">Projects</h2>
+              </a></div>
+      
+
+      
+    </nav>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/~ef/tags/cheat-engine">#Cheat Engine</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/~ef/tags/values">#values</a>
+  
+  | <a class="subtitle is-6" href="/~ef/tags/m.c.-kids">#M.C. Kids</a>
+  
+  | <a class="subtitle is-6" href="/~ef/tags/nes">#NES</a>
+  
+
+      
+    </div>
+    <h2 class="subtitle is-6">August 12, 2018</h2>
+    <h1 class="title">Finding Problematic Values (Part 3) - 4 min read</h1>
+    
+    <div class="content">
+      
+
+<h1 id="takeaway">Takeaway</h1>
+
+<p>Continue your understanding of not relying on in-your-face values.</p>
+
+<h1 id="challenges">Challenges</h1>
+
+<ul>
+<li>Fencepost error</li>
+<li>Finding illogical values through strategy</li>
+</ul>
+
+<h1 id="setup">Setup</h1>
+
+<ul>
+<li>Windows 10 x64</li>
+<li>FCEUX 2.2.3</li>
+<li>M.C. Kids for NES</li>
+<li>Cheat Engine 6.8.1 x64</li>
+</ul>
+
+<h1 id="prerequisites">Prerequisites</h1>
+
+<ul>
+<li>Scanning simple values and types from parts 1 and 2.</li>
+</ul>
+
+<h1 id="hacking-m-c-kids">Hacking M.C. Kids</h1>
+
+<h2 id="health-hearts">Health (hearts)</h2>
+
+<p>Same as before:</p>
+
+<ul>
+<li>Scan Type: Unknown initial value; followed by Increased Value, Decreased Value, and Unchanged Value</li>
+<li>Value Type: All</li>
+</ul>
+
+<p><span style="color:#57D900; font-size:20px">Tip!</span><img src="/~ef/assets/images/kotori-chibi.png" alt="tip" /></p>
+
+<pre><code>You know, there are four hearts. There's a good chance that value is a byte.
+Try it! However, also try the All type. I'll show you the problem with All type below.
+I'm not saying there's a clear choice on which to use. Most of the time All type is great,
+but sometimes making an educated guess can reduce error and pay off.
+</code></pre>
+
+<h3 id="fencepost-error">Fencepost Error</h3>
+
+<p><span style="color:red; font-size:20px">Important!</span> <img src="/~ef/assets/images/maki-chibi.png" alt="important" /></p>
+
+<pre><code>You probably encountered problems finding the value. 
+You said to yourself, &quot;there are four hearts, so I'm looking for the value: {1, 2, 3, 4}.&quot;
+That's wrong. You were actually off-by-one.
+</code></pre>
+
+<p>Like I said before in my articles, you can&rsquo;t trust what you&rsquo;re seeing. The game developers could&rsquo;ve implemented the hearts in any way they pleased. The hearts could represent something crazy like {3423, 33434342, 1, 34242334}. It&rsquo;s possible, but unlikely. I&rsquo;m just giving some crazy example. Something more likely would be {35, 36, 37, 38}. If you were paying attention to the values you were filtering down, you should&rsquo;ve noticed the pattern {0, 1, 2, 3}, a fencepost error this time for you!</p>
+
+<p><img src="/~ef/assets/images/finding-problematic-values-(part-3)/health-values.JPG" alt="fencepost-error" title="Fencepost error: value is 0 at 1 heart" /></p>
+
+<p><span style="color:red; font-size:20px">Important!</span> <img src="/~ef/assets/images/maki-chibi.png" alt="important" /></p>
+
+<pre><code>Do you see those four addresses I circled?
+They're the exact same address, except for the part after the colon: 
+a byte, 2-byte, 4-byte, and double.
+Remember how I said in the Tip above that you could've searched for Byte instead of All.
+The Byte is the correct one, and the others don't make sense. 4 hearts is the max.
+No point in going above a Byte nor whatever crazy value that double is.
+</code></pre>
+
+<h2 id="mcdonald-arches-those-m-s">McDonald Arches (those M&rsquo;s)</h2>
+
+<p>You collect M&rsquo;s that persist through different levels. After reaching 100 M&rsquo;s in a level, you get a Bonus Game level after beating the current level.</p>
+
+<ul>
+<li>Scan Type: Unknown initial value; followed by Increased Value, Decreased Value, and Unchanged Value</li>
+<li>Value Type: Byte &ndash; since we know 99 (resets to 0 when reaching 100) is the max value. Once again, All is always a great option, but this time Byte is a smart choice so we&rsquo;re going with that.</li>
+</ul>
+
+<p><span style="color:red; font-size:20px">Important!</span> <img src="/~ef/assets/images/maki-chibi.png" alt="important" /></p>
+
+<pre><code>I bet you didn't find anything. WTF is going on. 
+Time to step up your game plan! Continue reading.
+</code></pre>
+
+<p>You did everything correctly. You scanned -&gt; ended up with a bunch of values not even close to your M score -&gt; did one last scan and ended up with 0 results. Here&rsquo;s the deal: pay attention to the results before your last search (the one that gives you 0 results).</p>
+
+<p><span style="color:#57D900; font-size:20px">Tip!</span><img src="/~ef/assets/images/kotori-chibi.png" alt="tip" /></p>
+
+<pre><code>You can press the Undo Scan button to get the previous values.
+</code></pre>
+
+<p>Here&rsquo;s my screen:</p>
+
+<p><img src="/~ef/assets/images/finding-problematic-values-(part-3)/arches-values.JPG" alt="arches" title="One of these is what we're looking for. Try to make an educated guess." /></p>
+
+<p>Check out those two 42 and that 0 value byte. We&rsquo;re looking for patterns and those values seem the most logical. Not only are they the only single byte types, they&rsquo;re not a crazy number. So, try changing them all. What happens?</p>
+
+<p><img src="/~ef/assets/images/finding-problematic-values-(part-3)/arches-values-2.JPG" alt="arches2" title="The original 0 value turns out to be what we're looking for. Also look at the 7M; the assets are sharing memory with the values we need." /></p>
+
+<p>Both 42 are connected somehow with the 0 value, and they turn out to be not what we&rsquo;re looking for. But what happens when you change the 0? Modifying the 0 to something like 122, ends with changing our M score to 7M. Try other values such as 123 (a heart), 124, 130, 135, etc. I end up with 153 being M:99.</p>
+
+<p><span style="color:red; font-size:20px">Important!</span> <img src="/~ef/assets/images/maki-chibi.png" alt="important" /></p>
+
+<pre><code>The developers decided to weave in some complex logic for figuring out the M score. 
+Some numbers are symbols; some are numbers. 
+It probably had to do with making use of the precious memory on the NES. 
+Did you know the NES has 2KB of memory and this ROM has 256KB?
+</code></pre>
+
+<p><img src="/~ef/assets/images/finding-problematic-values-(part-3)/arches-values-4.JPG" alt="arches4" title="153 is the value for M:99" /></p>
+
+<h1 id="reference">Reference</h1>
+
+<ol>
+<li><a href="https://www.youtube.com/watch?v=5cKCPJcFYAU" target="_blank">YouTube Cheat Engine Tutorial, Part 3 by Stephen Chapman</a></li>
+</ol>
+
+      
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; <a href="http://dailyprog.org/~ef">ef_</a> 2018</p>
+    
+  </div>
+</section>
+
+</body>
+</html>
+

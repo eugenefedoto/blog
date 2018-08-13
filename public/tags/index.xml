@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef_&lt;/a&gt; 2018</copyright>
-    <lastBuildDate>Sat, 04 Aug 2018 14:59:49 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 03:21:35 -0500</lastBuildDate>
     
 	<atom:link href="http://dailyprog.org/~ef/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Chat</title>
       <link>http://dailyprog.org/~ef/tags/chat/</link>
-      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      <pubDate>Sun, 05 Aug 2018 03:21:35 -0500</pubDate>
       
       <guid>http://dailyprog.org/~ef/tags/chat/</guid>
       <description></description>
@@ -24,18 +24,36 @@
     <item>
       <title>Cheat Engine</title>
       <link>http://dailyprog.org/~ef/tags/cheat-engine/</link>
-      <pubDate>Sat, 04 Aug 2018 00:46:25 -0500</pubDate>
+      <pubDate>Sun, 12 Aug 2018 10:42:56 -0500</pubDate>
       
       <guid>http://dailyprog.org/~ef/tags/cheat-engine/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hackerchan</title>
-      <link>http://dailyprog.org/~ef/tags/hackerchan/</link>
-      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      <title>Dailyprog</title>
+      <link>http://dailyprog.org/~ef/tags/dailyprog/</link>
+      <pubDate>Sun, 05 Aug 2018 03:21:35 -0500</pubDate>
       
-      <guid>http://dailyprog.org/~ef/tags/hackerchan/</guid>
+      <guid>http://dailyprog.org/~ef/tags/dailyprog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>http://dailyprog.org/~ef/tags/features/</link>
+      <pubDate>Sun, 05 Aug 2018 03:21:35 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M.c. Kids</title>
+      <link>http://dailyprog.org/~ef/tags/m.c.-kids/</link>
+      <pubDate>Sun, 12 Aug 2018 10:42:56 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/m.c.-kids/</guid>
       <description></description>
     </item>
     
@@ -45,6 +63,15 @@
       <pubDate>Fri, 03 Aug 2018 11:32:38 -0500</pubDate>
       
       <guid>http://dailyprog.org/~ef/tags/megaman-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nes</title>
+      <link>http://dailyprog.org/~ef/tags/nes/</link>
+      <pubDate>Sun, 12 Aug 2018 10:42:56 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/nes/</guid>
       <description></description>
     </item>
     
@@ -69,7 +96,7 @@
     <item>
       <title>Ui</title>
       <link>http://dailyprog.org/~ef/tags/ui/</link>
-      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      <pubDate>Sun, 05 Aug 2018 03:21:35 -0500</pubDate>
       
       <guid>http://dailyprog.org/~ef/tags/ui/</guid>
       <description></description>
@@ -81,6 +108,15 @@
       <pubDate>Sat, 04 Aug 2018 00:46:25 -0500</pubDate>
       
       <guid>http://dailyprog.org/~ef/tags/value-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Values</title>
+      <link>http://dailyprog.org/~ef/tags/values/</link>
+      <pubDate>Sun, 12 Aug 2018 10:42:56 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/tags/values/</guid>
       <description></description>
     </item>
     

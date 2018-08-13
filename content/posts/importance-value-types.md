@@ -1,11 +1,12 @@
 ---
-title: "2 - Importance of Value Types"
+title: "Importance of Value Types (Part 2)"
 date: 2018-08-04T00:46:25-05:00
 draft: false
 tags:
 - Cheat Engine
 - value types
 - Ninja Gaiden 2
+- NES
 ---
 
 # Setup
@@ -13,7 +14,7 @@ tags:
 * Windows 10 x64
 * FCEUX 2.2.3
 * Ninja Gaiden 2 for NES
-* Cheat Engine 6.8.1
+* Cheat Engine 6.8.1 x64
 
 # Prerequisite
 

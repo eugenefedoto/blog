@@ -1,9 +1,9 @@
 ---
-title: "1 - Developing Chat UI"
+title: "Developing Chat UI (Part 1)"
 date: 2018-08-04T14:59:49-05:00
 draft: false
 tags:
-- Hackerchan
+- Dailyprog
 - UI
 - wireframe
 - chat

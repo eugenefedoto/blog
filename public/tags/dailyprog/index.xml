@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dailyprog on Hi, I&#39;m ef_</title>
+    <link>http://dailyprog.org/~ef/tags/dailyprog/</link>
+    <description>Recent content in Dailyprog on Hi, I&#39;m ef_</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef_&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Sun, 05 Aug 2018 03:21:35 -0500</lastBuildDate>
+    
+	<atom:link href="http://dailyprog.org/~ef/tags/dailyprog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Features of a Chat UI (Part 2)</title>
+      <link>http://dailyprog.org/~ef/posts/2-features-of-a-chat-ui/</link>
+      <pubDate>Sun, 05 Aug 2018 03:21:35 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/posts/2-features-of-a-chat-ui/</guid>
+      <description>In this article I&amp;rsquo;ll focus on figuring out the features.
+Suggestion Gathering I have free reign over the UI. While I&amp;rsquo;m dealing with other people&amp;rsquo;s suggestions, there are no requirements in place to dissuade anything I come up with. The main thing to consider are the users&amp;rsquo; interests, including mine. Dailyprog is a platform focused on anonymity, where Dailyprog users are still highly interested in being contacted in private. A throwaway email created specifically for one website is useful but is annoying to maintain on a user&amp;rsquo;s end; and it&amp;rsquo;s a huge disconnect from the site where the user&amp;rsquo;s work is showcased.</description>
+    </item>
+    
+    <item>
+      <title>Developing Chat UI (Part 1)</title>
+      <link>http://dailyprog.org/~ef/posts/developing-chat-ui/</link>
+      <pubDate>Sat, 04 Aug 2018 14:59:49 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/posts/developing-chat-ui/</guid>
+      <description>I recently tasked myself a project to develop the UI for a chat client that will later become a part of the Dailyprog/Hackerchan. As of now, a lot of the technical details are open in the air. I&amp;rsquo;m not even sure if it will use IRC in the end. The IRC part came from needing to replace the current Kiwi IRC client.
+I&amp;rsquo;m not really a front end guy, but sometimes I can enjoy it.</description>
+    </item>
+    
+  </channel>
+</rss>

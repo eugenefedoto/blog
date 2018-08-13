@@ -1,11 +1,12 @@
 ---
-title: "1 - Introduction to Scan Types"
+title: "Introduction to Scan Types (Part 1)"
 date: 2018-08-03T11:32:38-05:00
 draft: false
 tags:
 - Cheat Engine
 - scan types
 - Megaman 2
+- NES
 ---
 
 # A Little Background
@@ -27,7 +28,7 @@ Cheat Engine is a very popular intro into game hacking for many newbies. When th
 * Windows 10 x64
 * FCEUX 2.2.3
 * Megaman 2 (USA) for NES
-* Cheat Engine 6.8.1
+* Cheat Engine 6.8.1 x64
 
 # Before You Begin: Settings
 
@@ -53,6 +54,7 @@ Before I started finding the addresses, there were two settings I had to set in 
     * This is a setting you should always have enabled when working with emulators. It depends on how the emulator works and sometimes will work fine without it, but it's best to leave it on when dealing with any kind of emulator. In the below image, CE can't find the addresses we're looking for when the MEM_MAPPED setting is turned off and we try to find an address from that region. [![comparing mmap turned on and off]][comparing mmap turned on and off]
     * It's useless to enable for PC games (aka stored directly on PC memory) and will slow down scanning.
 2. Debugger Options -> "Use VEH Debugger"
+   * Some games have anti-debugger functions that crash the default Windows debugger.
 
 # Hacking Megaman 2 (NES)
 

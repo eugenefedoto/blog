@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Values on Hi, I&#39;m ef_</title>
+    <link>http://dailyprog.org/~ef/tags/values/</link>
+    <description>Recent content in Values on Hi, I&#39;m ef_</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;http://dailyprog.org/~ef&#34;&gt;ef_&lt;/a&gt; 2018</copyright>
+    <lastBuildDate>Sun, 12 Aug 2018 10:42:56 -0500</lastBuildDate>
+    
+	<atom:link href="http://dailyprog.org/~ef/tags/values/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finding Problematic Values (Part 3)</title>
+      <link>http://dailyprog.org/~ef/posts/finding-problematic-values-part-3/</link>
+      <pubDate>Sun, 12 Aug 2018 10:42:56 -0500</pubDate>
+      
+      <guid>http://dailyprog.org/~ef/posts/finding-problematic-values-part-3/</guid>
+      <description>Takeaway Continue your understanding of not relying on in-your-face values.
+Challenges  Fencepost error Finding illogical values through strategy  Setup  Windows 10 x64 FCEUX 2.2.3 M.C. Kids for NES Cheat Engine 6.8.1 x64  Prerequisites  Scanning simple values and types from parts 1 and 2.  Hacking M.C. Kids Health (hearts) Same as before:
+ Scan Type: Unknown initial value; followed by Increased Value, Decreased Value, and Unchanged Value Value Type: All  Tip!</description>
+    </item>
+    
+  </channel>
+</rss>
